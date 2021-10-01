@@ -1,26 +1,115 @@
 <! DOCTYPE html>
 <html>
-
+ <!-- Head consist of data for browser to render website to readable format-->
   <head>
   	<meta charset="utf-8">
   	<title>😎 Nijad's Personal Site</title>
   </head>
 
+  <!-- Body consist of content. Images, paragraphs, headers, links, tables, multiple page links -->
   <body>
-  	<img src="avatar.png" alt = "Profile picture">
-  	<h1> Nijad Fadil Kallil</h1>
+
+    <!--place image and detail in table so it occurs side by side. Later, will find out you can just 'float' the div-->
+  	<table cellspacing="20">
+      <td><img src="avatar.png" alt = "Profile picture"></td>
+  	<td><h1> Nijad Fadil Kallil</h1>
   	<p> <em>Cool Grade _ Kid</em> </p>
-  	<p> I am a <strong> SuPer COol</strong> Grade 3 kid. I like to play, go outside and eat good FOod. Oh! I also ❤❤ <em>Splash Pad</em>. I love to ride my blue bike with my Daddy. Life is fun.My mom has a website <a href = "http://www.shaisthakallil.tech"> Mom's Site </a></p>
+  	<p> I am a <strong> SuPer COol</strong> Grade 3 kid. I like to play, go outside and eat good FOod. Oh! I also &#128150 &#128150 <em>Splash Pad</em>. I love to ride my blue bike with my Daddy. Life is fun.My mom has a website <a href = "http://www.shaisthakallil.tech"> Mom's Site </a></p></td>
+    </table>
+
   	<hr>
 
   	<h3> Education </h3>
+
+    <!-- Unordered list. Each line will be shown with bullet points. If Ordered list, each line will be shown using numbers -->
   	<ul>
   	 <li> I have lived in A_____ since I was born.</li>
   	 <li> I go to F____ school.</li>
   	 <li> I like doing crafts and has attended craft lessons and summer camps. </li>
   	</ul>
 
-    <a href="hobbies.html">My Hobbies</a>
+    <hr>
+
+    <h3> Learning Experience <h3>
+    
+     <!-- table has different sections. thead - headings found here , th forms number of columns with headings and data. tbody- had table row data 'tr' and 'td' is number of columns in the row and corresponding data -->
+    <table cellspacing = "10">
+      <thead>
+        <th> Dates </th>
+        <th> Grades </th>
+      </thead>
+
+      <tbody>
+        <tr> 
+          <td>2017 - 2018</td>
+          <td> Grade x</td>
+        </tr>
+        <tr> 
+          <td>2018 - 2019</td>
+          <td> Grade y </td>
+        </tr>
+        <tr>
+          <td>2019 - 2020</td>
+          <td> Grade z</td>
+        </tr>
+        <tr>
+          <td> 2020 -2021 </td>
+          <td> Grade m</td>
+        </tr>
+        <tr>
+          <td> 2021 - Present </td>
+          <td> Grade n </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h3>Skills</h3>
+
+    <!-- Emojis are added from unicode-table site -->
+
+    <table cellspacing = "10">
+      <tr> 
+          <td>Singing </td>
+          <td>&#11088 &#11088 &#11088 &#11088 &#11088</td>
+          <td>Dancing</td>
+          <td>&#11088 &#11088 &#11088</td>
+      </tr>
+      <tr>
+          <td>Running </td>
+          <td>&#11088 &#11088 &#11088 &#11088 &#11088</td>
+          <td>Gymnastics</td>
+          <td>&#11088 &#11088 &#11088</td>
+      </tr>
+      <tr>
+          <td>Crafts </td>
+          <td>&#11088 &#11088 &#11088 &#11088 </td>
+      </tr>
+       <tr>
+          <td>Reading</td>
+          <td>&#11088 &#11088 &#11088 &#11088 </td>
+      </tr>
+    </table>
+
+    <hr>
+
+    <p><a href="hobbies.html">My Hobbies </a></p>
+
+    <hr>
+    <h3> Contact Details </h3>
+
+   <!-- Forms - has labels and inputs. Input has many 'type' attributes -->
+    <form class="" name="" value = "">
+      <label> Your name : </label>
+      <input type="text" name="" value = "">
+      <input type="color">
+      <br>
+      <label>Password</label>
+      <input type="password">
+      <input type = "submit" name="">
+    </form>
 
   	</body>
 
