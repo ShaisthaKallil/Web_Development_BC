@@ -2,5 +2,13 @@
 
 /*******************TAG SELECTORS****************************/
 body{
-  background-color: blue;
+  margin:0px;
+}
+div{
+  background-color: #efd3d7;
+}
+
+/***************::::HEADINGS::::*****************************/
+h1{
+  margin:0px;
 }
