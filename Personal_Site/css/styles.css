@@ -12,3 +12,16 @@ div{
 h1{
   margin:0px;
 }
+
+/*********************CLASS SELECTORS***********************/
+.middle-container{
+  height:200px;
+  width: 200px;
+  background-color: red;
+}
+
+.bottom-container{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
