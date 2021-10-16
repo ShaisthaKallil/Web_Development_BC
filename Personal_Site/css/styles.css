@@ -3,21 +3,39 @@
 /*******************TAG SELECTORS****************************/
 body{
   margin:0px;
+
 }
 div{
-  background-color: #efd3d7;
+  background-color: #000;
 }
 
 /***************::::HEADINGS::::*****************************/
 h1{
   margin:0px;
+  font-family: "Georgia", Times, serif;
+}
+h1,p{
+  /*color:#fff;*/
+  color:pink;
+}
+p{
+  font-family: "Arial", Times, sans-serif;
 }
 
 /*********************CLASS SELECTORS***********************/
+.top-container #lavborder{
+  width:15%;
+}
+
+.top-container #watch{
+  width: 200px;
+  height: 200px;
+}
 .middle-container{
   height:200px;
   width: 200px;
   background-color: red;
+
 }
 
 .bottom-container{
