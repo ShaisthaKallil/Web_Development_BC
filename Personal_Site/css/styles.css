@@ -2,44 +2,79 @@
 
 /*******************TAG SELECTORS****************************/
 body{
-  margin:0px;
+  margin:0;
+  background-color:lightblue;
+}
 
-}
-div{
-  background-color: #000;
-}
 
 /***************::::HEADINGS::::*****************************/
 h1{
-  margin:0px;
-  font-family: "Georgia", Times, serif;
+  margin:0;
+  font-family: 'Aclonica', sans-serif;
 }
-h1,p{
-  /*color:#fff;*/
-  color:pink;
-}
+
 p{
+  margin:0;
   font-family: "Arial", Times, sans-serif;
 }
 
 /*********************CLASS SELECTORS***********************/
-.top-container #lavborder{
+
+.container{
+
+}
+
+.pic_bal{
+  width:25%;
+  height:28%;
+  position:relative;
+  left: 10%;
+}
+
+.pic_cld_one{
   width:15%;
+  height:17%;
+  position:relative;
+  right:12%;
+  bottom:1.5%;
 }
 
-.top-container #watch{
-  width: 200px;
-  height: 200px;
-}
-.middle-container{
-  height:200px;
-  width: 200px;
-  background-color: red;
-
+.pic_cld{
+  width:12%;
+  height:45%;
+  position:relative;
+  right:12%;
+  bottom:100px;
+  z-index:-1;
 }
 
-.bottom-container{
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+.pic_tree{
+  width:20%;
+  position:relative;
+  top:200px;
+  left:35%;
+}
+
+.pic_butter{
+  width:15%;
+  height:13%;
+  position:absolute;
+  right:30%;
+  top:15%;
+}
+
+.name_container{
+  position:absolute;
+  right:4%;
+  width:30%;
+  border-radius:5%;
+  background-color:#ff865e;
+}
+
+.profile{
+  width:43%;
+  height:84%;
+  position:relative;
+  left:55%;
+  bottom:60px;
 }

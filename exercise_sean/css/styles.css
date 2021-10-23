@@ -1,0 +1,162 @@
+/*fef5ed,adc2a9,99a799*/
+
+/***********:: TAG SELECTORS ::*************/
+
+body{
+	margin: 0;
+	height: 100%;
+	text-align: center; /*centers the element inside the entire page BUT to center specific element with a certain width use margin auto*/
+    font-family: 'Merriweather', serif;
+
+}
+
+h1{
+	/*width: 10%;*/
+	/*margin: 0 auto;*/ /* horizontally centers the element right/left */
+	margin-top: 50px;
+	margin-bottom: 0;
+	font-family: 'Sacramento', cursive;
+	font-size: 5.62rem;  /*1em=100%=16px, 90/16=562.5%  - creates dynamic font zoom in/out. Also note that 'em' is inherited that is if body font size is 2em, then this 2*5.62 bigger */
+                        /*for this not to happen use 'rem'*/
+    color: #316b83;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0;
+	font-size:2.5rem ;/*40/16 =2.5*/
+	color: #316b83;
+	font-weight:bold;
+	line-height: 2;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #11999e;
+	font-weight: bold;
+}
+
+a{
+    color: #11999e;	
+}
+
+p{
+	color: #40514e;
+}
+
+hr{
+	border: none;
+	border-top: 7px dotted #eaf6f6;
+	width: 5%;
+	margin: 100px auto;
+}
+
+
+/***********:: CLASS SELECTORS ::*************/
+
+.top-container{
+	background-color: #d3e4cd;
+	position: relative; /*so that elements inside can have absolute position to change their positions*/   
+    padding-top: 100px;
+}
+
+.top-cld{
+	position: absolute;
+	right: 300px;
+	top: 50px;
+
+}
+
+
+.bottom-cld{
+	position: absolute;
+	left: 300px;
+}
+
+.profile-pic{
+	width: 250px;
+	height: 250px;
+}
+
+.dev-img{
+	width: 75px;
+	height: 75px;
+}
+
+.dev-img{
+    width: 25%;
+	height: 25%;
+	float: left;/*allows text to wrap around the image*/
+	margin-right: 30px;
+}
+
+.skill-img{
+	width: 25%;
+	height: 25%;
+	float: right;/*allows image to wrap around the image ONLY use it when absolutely necessary else stilck to position (rel,abs)*/
+	margin-left: 30px;
+}
+
+.skill-row{
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.skill-para{
+	/*clear: left;*/ /*Clears the left side of the element nothing will wrap around it*/
+}
+
+.skill-ess{
+	/*clear: right; */
+}
+
+.profile p{
+	width: 30%;
+	margin: 0 auto;
+
+}
+
+.contact-me p{
+   width: 45%;
+   margin: 0 auto;
+   line-height: 2;
+}
+
+.bottom-container{
+	background-color: #316b83;
+	padding: 40px;
+	margin-top: 30px;
+}
+
+.bottom-container p{
+   color: #eaf6f6;
+   font-size: 0.7rem;
+   padding: 10px;
+}
+
+.bottom-container a{
+	margin: 0 20px;
+	text-decoration: none;
+}
+.btn{
+   background: #11999e;
+   background-image: -webkit-gradient(to bottom, #11999e, #11999e);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px;
+   margin: 40px auto;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #11999e 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+	

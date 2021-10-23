@@ -1,0 +1,131 @@
+/******************:: TAG SELECTORS ::***********/
+
+body{
+	margin: 0;
+	height: 100%;
+	 /*centers the element inside the entire page BUT to center specific element with a certain width use margin auto*/
+	background-color: #8ecae6;
+}
+
+h1{
+   /*font-family: 'Bebas Neue', cursive;*/
+   font-family: 'Sacramento', cursive;
+   font-size: 3.62rem;
+   display: inline-block;
+   margin: 0;
+   color: #f3f0d7;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0;
+	font-size:1.7rem ;/*40/16 =2.5*/
+	color: #8d0801;
+	line-height: 2;
+}
+
+h3{
+	color: #f3f0d7;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	margin: 0;
+}
+
+span{
+	color: #8d0801;
+}
+
+/******************:: CLASS SELECTORS ::***********/
+
+.top-container{
+	background-color: black;
+	position: relative;
+	padding-top: 10px;
+}
+
+
+.balloon_cont{
+	/*background-color: greenyellow;*/
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+  left:0;
+}
+
+.pic_bal{
+	/*background-color: pink;*/
+	width: 50%;
+	position: absolute;
+	left: 15%;
+	top: 30px;
+}
+
+.wind{
+	position: absolute;
+	width: 50%;
+	left: 35%;
+	top: 250px;
+}
+.pic_cld_one{
+	/*background-color: brown;*/
+	width: 40%;
+	position: absolute;
+	right: 8%;
+}
+
+.pic_cld_two{
+	/*background-color: black;*/
+	width: 30%;
+	position: absolute;
+	top: 250px;
+	left: 20px;
+	z-index: -1;
+}
+
+.name_container{
+	/*background-color:#f07167;*/
+	padding-top: 100px;
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.border{
+	width: 8%;
+	position: absolute;
+	left: 65%;
+	top: 50%;
+	opacity: 0.8;
+}
+
+.quote{
+	width: 24%;
+	margin: 0 auto;
+	padding: 35px;
+	border: 4px solid #8d0801;
+	border-left: none;
+	border-right: none;
+	margin-top: 30px;
+	line-height: 2;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	color: #8d0801;
+}
+
+#first{
+	font-size: 1.7rem;
+	color: #fff;
+	letter-spacing: 0.5;
+
+}
+#second{
+	font-size: 1.7rem;
+	font-color: #fff ;
+}
+
+.profile{
+	width: 25%;
+	position: relative;
+	left: 38%;
+}
